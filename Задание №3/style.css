@@ -1,0 +1,33 @@
+body {
+    font-size: 15px;
+    font-family: Candara;
+}
+.table {
+    width: 500px;
+    border-collapse: collapse;
+    border: 1px #333 solid;
+}
+
+.table th {
+
+
+    border: 1px #333 solid;
+
+    margin: 5px 10px;
+
+}
+.table td {
+
+    border: 1px #333 solid ;
+    margin: 5px 10px;
+
+ }
+
+.table thead {
+    background-color: #f0f1f4;
+}
+.table tfoot {
+    color: #fff;
+    background-color: #121212;
+text-align: right;
+}

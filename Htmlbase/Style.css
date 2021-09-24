@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15px;
+    line-height: 1.6;
+    background: url("../Htmlbase/palm-leaf.png") no-repeat;
+
+    background-size: 100%;
+}
+.links {
+
+color: #ff20cb;
+    margin: 20px;
+    text-align: right ;
+
+
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+
+
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width:100%;
+    height: 3px;
+}
+
+
+
+
+.main_Test {
+    text-align: center;
+    font-size: 30px;
+
+    color: #4f66ff;
+
+}
+
+
+.any_Index{
+font-family: Monospaced;
+    font-size: 20px;
+    color: #0f19ff;
+}
+
